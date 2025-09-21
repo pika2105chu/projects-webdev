@@ -1,0 +1,206 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+.ultralogo {
+    width: 150px;
+
+}
+
+.languagelogo {
+    width: 32px;
+    height: 29px;
+}
+
+svg {
+    width: 18px;
+    height: 17px;
+    margin-right: 7px;
+    color: black;
+}
+
+.first-layer, .second-layer, .bluebox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.first-layer {
+    font-size: 40px;
+}
+
+#redimage {
+    height: 35px;
+    align-self: center;
+    margin: 15px;
+}
+
+.second-layer {
+    font-size: 25px;
+    text-align: center;
+}
+
+.middle, .theboxes {
+    width: 65vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#textbox {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    /* height: 28px; */
+    background-color: #33afd3;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.theboxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    /* border: 2px solid black; */
+    gap: 35px;
+}
+
+.language {
+    border-radius: 5px;
+    text-align: center;
+    /* height: 150px; */
+    background-color: rgb(239 239 239 / 50%);
+    /* width: 80vw; */
+}
+
+.greenbox {
+    margin: 50px;
+    margin-bottom: 15px;
+}
+
+.greenbox-english {
+    margin: 50px;
+    margin-bottom: 15px;
+    margin-top: 83px;
+}
+
+#download {
+    background-color: rgb(18, 151, 18);
+    color: white;
+    padding: 7px 17px;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+#secondtext {
+    font-size: x-small;
+}
+
+#thirdtext {
+    font-size: xx-small;
+
+}
+
+.smalltext {
+    margin: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .theboxes {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .theboxes {
+        grid-template-columns: 1fr;
+    }
+}
+
+.blackbox {
+    background-color: black;
+    color: white;
+}
+
+#leftblack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperbox {
+    /* background-color: rgb(53, 68, 63); */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+}
+
+.newletter{
+    display: flex;
+    flex-direction: column;
+}
+
+.msibox{
+    width: 80vw;
+margin: auto;
+}
+
+#rightblack {
+    background-color: white;
+    font-weight: 400;
+    color: rgb(24, 22, 22);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 70px;
+    width: 16vw;
+
+}
+
+#subscribe {
+    padding: 15px;
+    color: #00b6d1;
+}
+
+.twoboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+pre{
+    margin: 50px 0px;
+}
+
+input,
+button {
+    width: 131px;
+    /* height: 22px; */
+    margin: 5px;
+    border-radius: 4px;
+}
+
+button {
+    border-radius: 7px;
+    background-color: #00b6d1;
+    padding: 7px;
+    color: white;
+    border-style: none;
+}
